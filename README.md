@@ -5,3 +5,9 @@ This is the R-code for the bachelor project of Aske Bredahl & Johan Horsmans; "O
 The supplied .md-file is the R-pipeline for the ensemble support system for the DKhate data in section 1 of the thesis. The model pipeline is the same for section 2 and 3 except that the data used for training/prediction varied.py
 
 The python code for the thesis was run from a console, and, as such, it is not possible to commit that part of our pipeline to this repository. 
+
+Furthermore, our fully expanded dataset is included in this repository as "fully_expanded_data.csv", with the following columns:
+id: Unique ID for each comment
+comment: The comment
+class: The class of comments; Offensive (OFF) or non-offensive (NOT)
+machine_man: Who labeled the comment; our model (machine) or the authors (man)
