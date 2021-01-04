@@ -10,4 +10,6 @@ Furthermore, our fully expanded dataset is included in this repository as "fully
 id: Unique ID for each comment
 comment: The comment
 class: The class of comments; Offensive (OFF) or non-offensive (NOT)
-machine_man: Who labeled the comment; our model (machine) or the authors (man)
+machine_man: Who labeled the comment; our model (machine) or humans (man).
+
+The dataset contains a total of 106,369 comments (3,962 annotated by humans).
