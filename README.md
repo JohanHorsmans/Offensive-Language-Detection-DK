@@ -7,9 +7,14 @@ The supplied .md-file is the R-pipeline for the ensemble support system for the 
 The python code for the thesis was run from a console, and, as such, it is not possible to commit that part of our pipeline to this repository. 
 
 Furthermore, our fully expanded dataset is included in this repository as "fully_expanded_data.csv", with the following columns:
-id: Unique ID for each comment
-comment: The comment
-class: The class of comments; Offensive (OFF) or non-offensive (NOT)
+
+
+id: Unique ID for each comment.
+
+comment: The comment.
+
+class: The class of comments; Offensive (OFF) or non-offensive (NOT).
+
 machine_man: Who labeled the comment; our model (machine) or humans (man).
 
 The dataset contains a total of 106,369 comments (3,962 annotated by humans).
